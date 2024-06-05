@@ -4,10 +4,10 @@ const app = express();
 
 //get message
 app.get("/msg", (req, res, next) => {
-    res.json({"message": "khaled baarini available"});
+    res.json({"message": "Hello World!"});
    });
 
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log("Server running on port 3000");
    });
